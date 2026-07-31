@@ -339,7 +339,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="lg:col-span-6 relative">
               <div className="relative rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-slate-200">
                 <img
-                  src="https://imgur.com/a/OjBL7sP"
+                  src="https://i.imgur.com/a/OjBL7sP"
                   alt="Furnished bedroom in Gentle Steps supported accommodation"
                   className="w-full h-[400px] sm:h-[480px] object-cover"
                   referrerPolicy="no-referrer"
