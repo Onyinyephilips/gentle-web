@@ -146,7 +146,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-100 group">
                 <img
-                  src="/src/assets/images/gentle_hero_home_1785431028121.jpg"
+                  src="http://pertheon.com/wp-content/uploads/2026/07/gentle_hero_home_1785431028121.jpg"
                   alt="Gentle Steps Support living environment with support worker and young adult"
                   className="w-full h-[460px] sm:h-[520px] object-cover transform group-hover:scale-105 transition-transform duration-700"
                   referrerPolicy="no-referrer"
@@ -339,7 +339,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="lg:col-span-6 relative">
               <div className="relative rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-slate-200">
                 <img
-                  src="https://i.imgur.com/a/OjBL7sP"
+                  src="http://pertheon.com/wp-content/uploads/2026/07/gentle_bedroom_1785431043251.jpg"
                   alt="Furnished bedroom in Gentle Steps supported accommodation"
                   className="w-full h-[400px] sm:h-[480px] object-cover"
                   referrerPolicy="no-referrer"
