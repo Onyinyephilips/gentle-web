@@ -1,0 +1,6 @@
+{
+  "name": "Gentle Steps Support",
+  "description": "Supported accommodation and person-centred care website for young adults aged 18–25 in the UK.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

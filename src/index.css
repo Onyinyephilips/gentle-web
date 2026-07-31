@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --primary: #3371A4;
+  --primary-hover: #275983;
+  --secondary: #EFA250;
+  --secondary-hover: #e09038;
+  --bg-soft: #F5F8FB;
+  --bg-offwhite: #F8FAFC;
+  --bg-lightgrey: #EEF3F7;
+  --text-dark: #1E293B;
+  --text-body: #5B6470;
+  --text-muted: #64748B;
+  --border-subtle: #E2E8F0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--text-body);
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Manrope', 'DM Sans', sans-serif;
+  color: var(--text-dark);
+}
+
+/* Custom Utilities for Brand Colors */
+.bg-brand-primary {
+  background-color: #3371A4;
+}
+.bg-brand-primary-hover:hover {
+  background-color: #275983;
+}
+.text-brand-primary {
+  color: #3371A4;
+}
+.border-brand-primary {
+  border-color: #3371A4;
+}
+
+.bg-brand-secondary {
+  background-color: #EFA250;
+}
+.bg-brand-secondary-hover:hover {
+  background-color: #E09038;
+}
+.text-brand-secondary {
+  color: #EFA250;
+}
+.border-brand-secondary {
+  border-color: #EFA250;
+}
+
+.bg-brand-soft {
+  background-color: #F5F8FB;
+}
+.bg-brand-offwhite {
+  background-color: #F8FAFC;
+}
+.bg-brand-lightgrey {
+  background-color: #EEF3F7;
+}
+
+/* Card Styles & Glass Effects */
+.soft-card {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px -10px rgba(51, 113, 164, 0.08), 0 4px 12px -2px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(238, 243, 247, 0.9);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.soft-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -15px rgba(51, 113, 164, 0.15), 0 8px 20px -4px rgba(0, 0, 0, 0.05);
+  border-color: rgba(51, 113, 164, 0.25);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3371A4;
+}
+
