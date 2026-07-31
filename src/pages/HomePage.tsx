@@ -554,7 +554,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             Make a Placement Referral
           </span>
 
-          <h2 style="color:#fff !important" className="text-3xl sm:text-5xl font-black text-white font-heading leading-tight max-w-3xl mx-auto">
+          <h2 className="text-3xl sm:text-5xl font-black text-white font-heading leading-tight max-w-3xl mx-auto">
             Ready to Support a Young Person’s Next Step Towards Independence?
           </h2>
 
